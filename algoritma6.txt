@@ -1,0 +1,21 @@
+Minitask Algoritma 6
+
+
+DECLARE jumlahPembelian: num
+DECLARE diskon:float
+BEGIN
+   	INPUT(jumlahPembelian)
+
+	IF jumlahPembelian < 500000
+		diskon = 0/100
+		
+	ELSEIF jumlahPembelian <= 500000 && jumlahPembelian >= 1000000
+		diskon = 5/100
+
+	ELSE
+		diskon = 10/100
+
+	ENDIF
+
+	OUTPUT(diskon)
+END  
