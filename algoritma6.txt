@@ -1,7 +1,7 @@
 Minitask Algoritma 6
 
 
-DECLARE jumlahPembelian: num
+DECLARE jumlahPembelian, totalPembelian, totalDiskon: num
 DECLARE diskon:float
 BEGIN
    	INPUT(jumlahPembelian)
@@ -17,5 +17,9 @@ BEGIN
 
 	ENDIF
 
-	OUTPUT(diskon)
+	totalDiskon <- jumlahPembelian * diskon
+	totalPembelian <- jumlahPembelian - totalDiskon	
+
+	OUTPUT("DISKON = ", diskon)
+	OUTPUT("TOTAL PEMBELIAN = ", totalPembelian)
 END  
