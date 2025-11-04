@@ -1,5 +1,4 @@
-Minitask Algoritma 6
-
+PERHITUNGAN DISKON BELANJA
 
 DECLARE jumlahPembelian, totalPembelian, totalDiskon: num
 DECLARE diskon:float
